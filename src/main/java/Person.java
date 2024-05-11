@@ -1,4 +1,5 @@
 public class Person {
+//public class Person implements Comparable<Person> {
     private String firstName;
     private String lastName;
     private int age;
@@ -31,5 +32,18 @@ public class Person {
     public String toString() {
         return "Fornavn: " + getFirstName() + ", Efternavn: " + getLastName() + ", Alder: " + getAge() + ", Højde: " + getHeight();
     }
+
+//    @Override
+//    public int compareTo(Person o) {
+//        // Since it's just a number comparison, we can also use this:
+//        //return Integer.compare(o.getAge(), this.getAge());
+//        if (o.getAge() == this.getAge()) {
+//            return 0;
+//        }
+//        else if (o.getAge() > this.getAge()) {
+//            return -1;
+//        }
+//        else return 1;
+//    }
 }
 

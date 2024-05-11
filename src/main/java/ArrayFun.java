@@ -13,6 +13,7 @@ public class ArrayFun {
         int[] mergedArray = merge(firstArray,secondArray, thirdArray);
         System.out.println("merged array:");
         System.out.println(Arrays.toString(mergedArray));
+        System.out.println("git test");
     }
 
     // combines two arrays, returns the new array
